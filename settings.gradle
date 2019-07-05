@@ -1,0 +1,2 @@
+// Para a build para Android, descomentar o subprojeto android
+include 'desktop', 'core' //, 'android'
