@@ -57,6 +57,7 @@ public class SplashScreen extends BaseScreen {
         logo.setCenter(
                 super.viewport.getWorldWidth() / 2,
                 super.viewport.getWorldHeight() / 2);
+        logo.setScale(0.4f);
     }
 
     @Override

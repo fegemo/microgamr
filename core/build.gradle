@@ -5,6 +5,9 @@ sourceCompatibility = 1.6
 
 sourceSets.main.java.srcDirs = [ "src/" ]
 
+javadoc {
+    destinationDir = reporting.file("${project.docsDir}/javadocs")
+}
 
 eclipse.project {
     name = appName + "-core"
